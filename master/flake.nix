@@ -11,6 +11,7 @@
   inputs.src-openapi-master.ref   = "refs/heads/master";
   inputs.src-openapi-master.owner = "disruptek";
   inputs.src-openapi-master.repo  = "openapi";
+  inputs.src-openapi-master.dir   = "";
   inputs.src-openapi-master.type  = "github";
   
   inputs."npeg".owner = "nim-nix-pkgs";
