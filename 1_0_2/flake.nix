@@ -11,7 +11,6 @@
   inputs.src-openapi-1_0_2.ref   = "refs/tags/1.0.2";
   inputs.src-openapi-1_0_2.owner = "disruptek";
   inputs.src-openapi-1_0_2.repo  = "openapi";
-  inputs.src-openapi-1_0_2.dir   = "";
   inputs.src-openapi-1_0_2.type  = "github";
   
   inputs."npeg".owner = "nim-nix-pkgs";

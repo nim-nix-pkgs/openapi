@@ -11,7 +11,6 @@
   inputs.src-openapi-3_2_2.ref   = "refs/tags/3.2.2";
   inputs.src-openapi-3_2_2.owner = "disruptek";
   inputs.src-openapi-3_2_2.repo  = "openapi";
-  inputs.src-openapi-3_2_2.dir   = "";
   inputs.src-openapi-3_2_2.type  = "github";
   
   inputs."npeg".owner = "nim-nix-pkgs";
@@ -29,6 +28,14 @@
   inputs."foreach".type  = "github";
   inputs."foreach".inputs.nixpkgs.follows = "nixpkgs";
   inputs."foreach".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/disruptek/rest".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/rest".ref   = "master";
+  inputs."github.com/disruptek/rest".repo  = "github.com/disruptek/rest";
+  inputs."github.com/disruptek/rest".dir   = "";
+  inputs."github.com/disruptek/rest".type  = "github";
+  inputs."github.com/disruptek/rest".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/rest".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
