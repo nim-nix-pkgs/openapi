@@ -151,7 +151,7 @@
         "github-disruptek-rest": "github-disruptek-rest",
         "nixpkgs": "nixpkgs",
         "npeg": "npeg",
-        "src-openapi-master": "src-openapi-master"
+        "src-openapi-devel": "src-openapi-devel"
       }
     },
     "src-foreach-1_0_2": {
@@ -205,19 +205,19 @@
         "type": "github"
       }
     },
-    "src-openapi-master": {
+    "src-openapi-devel": {
       "flake": false,
       "locked": {
-        "lastModified": 1628463390,
-        "narHash": "sha256-v7WRj4iucvWY5GC0vTgL+PA2W3zintj4n1ohl8/c7Ls=",
+        "lastModified": 1588345410,
+        "narHash": "sha256-mpWFLMloBUpQlL00GLRJvXPz8s/uG8iEgqw5VFqW1fs=",
         "owner": "disruptek",
         "repo": "openapi",
-        "rev": "6a4424fc184c61781b16d5f75cdd3d809736673f",
+        "rev": "530957742fe2187c5a2a1468dfd660540d32a4aa",
         "type": "github"
       },
       "original": {
         "owner": "disruptek",
-        "ref": "refs/heads/master",
+        "ref": "refs/heads/devel",
         "repo": "openapi",
         "type": "github"
       }
